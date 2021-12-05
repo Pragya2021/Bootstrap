@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<!--Bootstrep CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+
+    <style type="text/css">
+    	<style>
+  .carousel-caption{
+    color: #fff;
+    position: absolute;
+    top: 27%;
+    left: 82px;
+  }
+  h5{
+    font-size: 70px;
+
+    /*border-bottom-style: ridge;
+    font-weight: bold;
+    border-bottom-color: #82c434;*/
+  }
+</style>
+    </style>
+</head>
+<body>
+	<!--start -->  
+<div class="carousel slide" data-bs-ride="carousel" id="a">
+
+  <!--carousel-indicators start-->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#a" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#a" data-bs-slide-to="1" ></button>
+    <button type="button" data-bs-target="#a" data-bs-slide-to="2" ></button>
+  </div>
+  <!--carousel-indicators end-->
+
+  <div class="carousel-inner">
+
+    <!--carousel-item start-->
+    <div class="carousel-item active" data-bs-interval="4000">
+      <img src="https://app.firstfiddle.in/images/brand-banner/lotd.jpeg" class="d-block w-100" alt="...">
+      <div class="carousel-caption">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item " data-bs-interval="2000">
+      <img src="https://app.firstfiddle.in/images/brand-banner/plum.jpeg" class="d-block w-100" alt="...">
+      <div class="carousel-caption">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="https://app.firstfiddle.in/images/brand-banner/dragonflybanner.jpeg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+    <!--carousel-item end-->
+  </div><!--carousel-inner-->
+  
+    <!--prev  next start-->
+  <button class="carousel-control-prev" type="button" data-bs-target="#a" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#a" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+    <!--end prev next-->  
+</div>
+<!-- slider end-->
+
+</body>
+</html>
+
+<!--  data-bs- ride = slider chalana-->
+<!-- data-bs-ntervel = speed -->
+<!-- carousal-item = img ke peeche rakhna -->
+<!-- carousal-item active= front img show krna -->
+<!-- slider= slide show krana -->
+<!-- imgage name-->

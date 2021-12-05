@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+.navbar{
+    background:#152c4c;
+}
+.navbar-nav li{
+    padding:0 20px ;
+}
+.navbar-nav li a{
+    color: white !important;
+    font-weight: 600;
+    font-size: 20px;
+}
+.ban{
+	position:relative;
+    top:120px;
+    left:100px; 
+    margin-bottom:50px;
+}
